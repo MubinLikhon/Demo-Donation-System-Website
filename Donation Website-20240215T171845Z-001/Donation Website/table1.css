@@ -1,0 +1,96 @@
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("../user registration/images/248445692_579268383156655_7434293478413941860_n.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: indianred;
+    font-size: 0.9rem;
+    background-color: darkcyan;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: flex;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+h2{
+    width:40%;
+    text-align: center;
+    margin-left:700px; 
+    
+    background-color: white;
+}
+table{
+    border-collapse: collapse;
+    box-shadow: 0 20px 25px black;
+    background-color: white;
+    text-align: left;
+    overflow: hidden;
+
+}
+
+table.right {
+    width:58%; 
+    margin-left:600px; 
+    margin-right:auto;
+  }
+
+th{
+        padding: 10px 5px;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        font-size: 0.7rem;
+        font-weight: 900;
+    }
+td{
+        padding: 1rem 2rem;
+}
+
+a{
+        text-decoration: none;
+        color: black;
+}
+tr:nth-child(even){
+    background-color: blanchedalmond;   
+}
+tr:hover{
+    background-color: cornflowerblue;
+    color: blanchedalmond;
+    transition: 1s;
+}

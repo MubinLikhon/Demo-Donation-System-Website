@@ -1,0 +1,22 @@
+body{
+    background-color: antiquewhite;
+    background-image: url("thanks_jpg.jpg ");
+    position: relative;
+    background-size: 1650px 1000px;
+    background-repeat: no-repeat; 
+}
+p{
+    
+    text-align: center;
+    padding-top: 40px;
+    font-size: 50px;
+}
+a{
+        color:black;
+        font-size: 40px;
+     }
+
+marquee{
+    color:black;
+    font-size: 30;
+}
